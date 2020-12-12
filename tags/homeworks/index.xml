@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Homeworks on IGD Blog</title>
-		<link>http://gd-github.github.io/tags/homeworks/</link>
+		<link>https://gd-github.github.io/tags/homeworks/</link>
 		<description>Recent content in Homeworks </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
@@ -15,41 +15,41 @@
 		
 		<item>
 			<title>Getting started with VR</title>
-			<link>http://gd-github.github.io/post/unity2/</link>
+			<link>https://gd-github.github.io/post/unity2/</link>
 			<pubDate>Mon, 30 Nov 2020 09:10:13 +0100</pubDate>
-			<guid>http://gd-github.github.io/post/unity2/</guid>
+			<guid>https://gd-github.github.io/post/unity2/</guid>
 			<description>Roll a Ball - VR version This practical was the first one where we add to develop in VR which was exciting ! But some issues were encountered, as the first step was to enable the developer mode. First of all I had no USB-A to USB-C adapter/cable so went to buy one, hoping that it will all work wonderfully. Well, plugin it in my Windows machine, the Quest was charging but didn&amp;rsquo;t offer to enable USB debugging.</description>
 		</item>
       	
 		<item>
 			<title>Introduction to Unity</title>
-			<link>http://gd-github.github.io/post/unity/</link>
+			<link>https://gd-github.github.io/post/unity/</link>
 			<pubDate>Mon, 30 Nov 2020 09:10:13 +0100</pubDate>
-			<guid>http://gd-github.github.io/post/unity/</guid>
+			<guid>https://gd-github.github.io/post/unity/</guid>
 			<description>Roll a Ball The purpose of this course was to introduce us to Unity while building our first game &amp;ldquo;Roll a ball&amp;rdquo;. I in fact had already a bit of experience on Unity but not too much, and I&amp;rsquo;ve never did the Roll a Ball game so I thought I will give it a try. Well things were not as simple as what I imagined. The last time I used Unity was in 2018 and I kept the version I installed back then on my PC.</description>
 		</item>
       	
 		<item>
 			<title>Homework 2: Ultimate Display</title>
-			<link>http://gd-github.github.io/post/hw2/</link>
+			<link>https://gd-github.github.io/post/hw2/</link>
 			<pubDate>Mon, 23 Nov 2020 19:12:38 +0100</pubDate>
-			<guid>http://gd-github.github.io/post/hw2/</guid>
+			<guid>https://gd-github.github.io/post/hw2/</guid>
 			<description>Ultimate Display I was very confused about the article until I realized it was from 1965. What the author, Ivan Sutherland, describes is very interesting. He is foreseeing some technical breakthroughs like eye tracking or haptic technology in times where the mouse is just being invented ! I think that what he presents actually fits into the Reality-Virtuality Continuum of Milgram but not as a discrete point. I would rather say that it is an area inbetween augmented reality and augmented virtuality within the continuum.</description>
 		</item>
       	
 		<item>
 			<title>Homework 1 : Hyper Reality</title>
-			<link>http://gd-github.github.io/post/hw1/</link>
+			<link>https://gd-github.github.io/post/hw1/</link>
 			<pubDate>Mon, 23 Nov 2020 18:04:34 +0100</pubDate>
-			<guid>http://gd-github.github.io/post/hw1/</guid>
+			<guid>https://gd-github.github.io/post/hw1/</guid>
 			<description>First scenario This hyper reality is displaying a whole lot of information all around the user. This could be very unconvenient for someone who is doing something that requires attention, let&amp;rsquo;s say driving. You are in the middle of the highway, driving at 130kph and suddenly your boss calls and his face pops right in the middle of your field of view. Then you see and hear ads all around you, it will be completely impossible to focus.</description>
 		</item>
       	
 		<item>
 			<title>My First Post</title>
-			<link>http://gd-github.github.io/post/my-first-post/</link>
+			<link>https://gd-github.github.io/post/my-first-post/</link>
 			<pubDate>Mon, 23 Nov 2020 09:58:34 +0100</pubDate>
-			<guid>http://gd-github.github.io/post/my-first-post/</guid>
+			<guid>https://gd-github.github.io/post/my-first-post/</guid>
 			<description>I just got started with Hugo, it was pretty straight forward. The only problem I had is that I used sudo apt-get to install it but didn&amp;rsquo;t compile at first with the theme I chose. The reason was because sudo apt-get gets an old version of Hugo (0.40 I think) and the theme needed 0.60 or superior so I reinstalled it manually. Looking forward to post about this week homework later.</description>
 		</item>
       	
