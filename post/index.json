@@ -1,0 +1,53 @@
+[
+    
+        
+            {
+                "ref": "http://gd-github.github.io/post/unity2/",
+                "title": "Getting started with VR",
+                "section": "post",
+                "date" : "2020.11.30",
+                "body": "Roll a Ball - VR version This practical was the first one where we add to develop in VR which was exciting ! But some issues were encountered, as the first step was to enable the developer mode. First of all I had no USB-A to USB-C adapter/cable so went to buy one, hoping that it will all work wonderfully. Well, plugin it in my Windows machine, the Quest was charging but didn\u0026rsquo;t offer to enable USB debugging. I then tried it on my Linux machine, it was a bit better but adb commands would tell me that I\u0026rsquo;m don\u0026rsquo;t have some authorizations or whatever. Seems that I had to kill and restart the server for the holy USB debugging pop-up to finally show up ! I still have to kill/start the server every time I plug in the Quest but well it works at least so I\u0026rsquo;m not going to complain. Then comes the fun part, I followed the tutorial without too many issues, I struggled a bit because my controllers were way to small in the beginning. After two or three tries in order to fix the size of everything and the position of the text everything was working as intended which is pretty satisfaying. Really looking forward the next praticals with the Quest. Here are some ingame screenshots (oops I threw the board away) of the game and the github repository to the code: Github repository: https://github.com/GD-Github/Roll-A-Ball-VR "
+            }
+        
+    ,
+        
+            {
+                "ref": "http://gd-github.github.io/post/unity/",
+                "title": "Introduction to Unity",
+                "section": "post",
+                "date" : "2020.11.30",
+                "body": "Roll a Ball The purpose of this course was to introduce us to Unity while building our first game \u0026ldquo;Roll a ball\u0026rdquo;. I in fact had already a bit of experience on Unity but not too much, and I\u0026rsquo;ve never did the Roll a Ball game so I thought I will give it a try. Well things were not as simple as what I imagined. The last time I used Unity was in 2018 and I kept the version I installed back then on my PC. So I went through the tutorial pretty quickly, until I had to install the Input System package. For some reason I got a lot of error messages and after half an hour of googling and trying to fix it I thought that it could be my Unity version that was too old. After installing a newer version everything worked fine and I could continue the tutorial. After that things were pretty straightforward and I added all the features of the game. I haven\u0026rsquo;t added much by myself aside from the ball size increasing after picking up items, just like in the \u0026ldquo;Snake\u0026rdquo; game I used to play when I was a kid. Here is a look at the game I made: Survival FPS As I mentionned before I already had some kind of experience on Unity and I was able to find the files on my PC so I thought I could share it there. For this game I also followed a Unity tutorial but it was much more complex than roll a ball. It handle other things like character animation, more UI elements like HP status, creating spawn points for ennemies, sound effects and a lot more. Here is a sneak peek of what I did back then: "
+            }
+        
+    ,
+        
+            {
+                "ref": "http://gd-github.github.io/post/hw2/",
+                "title": "Homework 2: Ultimate Display",
+                "section": "post",
+                "date" : "2020.11.23",
+                "body": "Ultimate Display I was very confused about the article until I realized it was from 1965. What the author, Ivan Sutherland, describes is very interesting. He is foreseeing some technical breakthroughs like eye tracking or haptic technology in times where the mouse is just being invented ! I think that what he presents actually fits into the Reality-Virtuality Continuum of Milgram but not as a discrete point. I would rather say that it is an area inbetween augmented reality and augmented virtuality within the continuum. Some of what he describes, like stimulating other senses like taste or smell in a computer are to me closer to virtuality whereas using eyetracking to modify the display of the screen seems more like augmented reality. "
+            }
+        
+    ,
+        
+            {
+                "ref": "http://gd-github.github.io/post/hw1/",
+                "title": "Homework 1 : Hyper Reality",
+                "section": "post",
+                "date" : "2020.11.23",
+                "body": "First scenario This hyper reality is displaying a whole lot of information all around the user. This could be very unconvenient for someone who is doing something that requires attention, let\u0026rsquo;s say driving. You are in the middle of the highway, driving at 130kph and suddenly your boss calls and his face pops right in the middle of your field of view. Then you see and hear ads all around you, it will be completely impossible to focus. To avoid that, the system should be connected to the car and be completely shut down while driving, or maybe only giving relevant information for the driver. It could be traffic information, weather or GPS. Second scenario This system could also be very abusive about ratings system. As we already see it nowadays about restaurants, hotels and all kind of shops, online ratings give credit (or not) to a place. It would be the same with this kind of system. I imagine that when you meet someone new, you would see \u0026ldquo;3.7/5 stars - 412 ratings\u0026rdquo; and then your opinion about people would be completely biased. It will reinforce social inequalities and be a constant pressure, people should always behave in a way so that they please everybody in order to get a good rating from them and the society will lose any form of honesty. It might also reinforce cyberbullying. "
+            }
+        
+    ,
+        
+            {
+                "ref": "http://gd-github.github.io/post/my-first-post/",
+                "title": "My First Post",
+                "section": "post",
+                "date" : "2020.11.23",
+                "body": "I just got started with Hugo, it was pretty straight forward. The only problem I had is that I used sudo apt-get to install it but didn\u0026rsquo;t compile at first with the theme I chose. The reason was because sudo apt-get gets an old version of Hugo (0.40 I think) and the theme needed 0.60 or superior so I reinstalled it manually. Looking forward to post about this week homework later.\nI also got some issues trying to make the tags and categories work but now it does, I think I just had to relaunch the server.\n"
+            }
+        
+    
+]
