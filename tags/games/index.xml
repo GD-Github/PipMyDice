@@ -9,14 +9,22 @@
 		
 		<managingEditor>Page(/tags/games) (Guillaume Demarles)</managingEditor>
     	
-  		<lastBuildDate>Mon, 30 Nov 2020 09:10:13 +0100</lastBuildDate>
+  		<lastBuildDate>Fri, 11 Dec 2020 10:40:13 +0100</lastBuildDate>
 		
 		<atom:link href="/tags/games/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>Homework 3: Locomotion techniques</title>
+			<link>https://gd-github.github.io/post/hw3/</link>
+			<pubDate>Mon, 21 Dec 2020 14:45:38 +0100</pubDate>
+			<guid>https://gd-github.github.io/post/hw3/</guid>
+			<description>Context The main idea of this homework was to find three original locomotion techniques that could be implemented in a VR Parkour. The parkour was already implemented in Unity by @wenjietseng and is available on GitHub. I quickly had some ideas for that and ended up with more than three options. Later on we will have to implement one of those and I will post about it. I kept the ones that I thought were the best, let&amp;rsquo;s get started.</description>
+		</item>
+      	
+		<item>
 			<title>Getting started with VR</title>
 			<link>https://gd-github.github.io/post/unity2/</link>
-			<pubDate>Mon, 30 Nov 2020 09:10:13 +0100</pubDate>
+			<pubDate>Fri, 11 Dec 2020 10:40:13 +0100</pubDate>
 			<guid>https://gd-github.github.io/post/unity2/</guid>
 			<description>Roll a Ball - VR version This practical was the first one where we add to develop in VR which was exciting ! But some issues were encountered, as the first step was to enable the developer mode. First of all I had no USB-A to USB-C adapter/cable so went to buy one, hoping that it will all work wonderfully. Well, plugin it in my Windows machine, the Quest was charging but didn&amp;rsquo;t offer to enable USB debugging.</description>
 		</item>

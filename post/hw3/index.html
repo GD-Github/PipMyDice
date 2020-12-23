@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>Homework 3: Locomotion techniques</title>
+
+
+  
+
+
+  
+  <script data-goatcounter="https://stats.domain.com/count"
+          async src="//stats.domain.com/count.js"></script>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://gd-github.github.io/index.xml"
+  title="IGD Blog"
+/>
+
+<link rel="stylesheet" href="https://gd-github.github.io/fontawesome/css/all.min.css" />
+
+<link
+  id="dark-mode-theme"
+  rel="stylesheet"
+  href="https://gd-github.github.io/css/dark.css"
+/>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
+
+<script src="https://gd-github.github.io/js/bundle.js"></script>
+<script src="https://gd-github.github.io/js/instantpage.min.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.78.2" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+      <a href="https://gd-github.github.io/" class="nav-logo">
+        <img
+          src="https://gd-github.github.io/images/icon.png"
+          width="50"
+          height="50"
+          alt="Logo"
+        />
+      </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li>
+            <a href="/about/" id="About"
+              ><em class="fas fa-user fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="/tags" id="Tags"
+              ><em class="fas fa-tag fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="/categories" id="Category"
+              ><em class="fas fa-folder-open fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="/search" id="Search"
+              ><em class="fas fa-search fa-lg"></em
+            ></a>
+          </li>
+          
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+        <div class="post-heading">
+          
+            <h1>
+              Homework 3: Locomotion techniques
+            </h1>
+          
+          
+            <span class="meta-post">
+  <em class="fa fa-calendar-alt"></em
+  >&nbsp;Dec 21, 2020
+  
+    &nbsp;&nbsp;&nbsp;<em class="fa fa-folder-open"></em>&nbsp;
+    
+      <a href="https://gd-github.github.io//categories/lecture-1/">Lecture 1</a
+      >&nbsp;
+    
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+  <h2 id="context">Context</h2>
+<h4 id="the-main-idea-of-this-homework-was-to-find-three-original-locomotion-techniques-that-could-be-implemented-in-a-vr-parkour-the-parkour-was-already-implemented-in-unity-by-wenjietseng-and-is-available-on-github-i-quickly-had-some-ideas-for-that-and-ended-up-with-more-than-three-options-later-on-we-will-have-to-implement-one-of-those-and-i-will-post-about-it-i-kept-the-ones-that-i-thought-were-the-best-lets-get-started">The main idea of this homework was to find three original locomotion techniques that could be implemented in a VR Parkour. The parkour was already implemented in Unity by @wenjietseng and is available on GitHub. I quickly had some ideas for that and ended up with more than three options. Later on we will have to implement one of those and I will post about it. I kept the ones that I thought were the best, let&rsquo;s get started.</h4>
+<h2 id="teleporting-ball">Teleporting Ball</h2>
+<h4 id="this-idea-was-really-cool-and-suggested-by-jan-during-the-course-and-i-thought-i-could-think-about-the-way-to-develop-such-a-technique-the-concept-is-simple-you-have-a-ball-that-you-can-grab-with-the-controllers-and-throw-and-wherever-you-throw-this-ball-your-body-will-follow-it-i-think-this-locomotion-technique-could-be-enjoyable-to-use-and-also-quite-motion-sickness-friendly-as-the-movement-you-are-doing-is-following-your-arms-movement-kind-of">This idea was really cool and suggested by Jan during the course and I thought I could think about the way to develop such a technique. The concept is simple, you have a ball that you can grab with the controllers and throw and wherever you throw this ball your body will follow it. I think this locomotion technique could be enjoyable to use and also quite motion sickness friendly as the movement you are doing is following your arm&rsquo;s movement kind of.</h4>
+<h4 id="implementing-it-should-be-pretty-easy-as-we-already-know-how-to-grab-something-and-throw-it-in-game-for-convenience-you-should-be-able-to-pick-up-the-ball-quite-easily-i-think-a-good-way-to-do-that-is-by-adding-a-sort-of-shadow-force-that-you-can-trigger-with-the-controller-when-you-do-it-the-ball-comes-to-your-hand-like-thors-hammer-and-of-course-gravity-should-be-enabled-so-that-you-dont-fly-to-the-moon-">Implementing it should be pretty easy as we already know how to grab something and throw it in game. For convenience you should be able to pick-up the ball quite easily. I think a good way to do that is by adding a sort of shadow force that you can trigger with the controller, when you do it the ball comes to your hand like Thor&rsquo;s hammer. And of course gravity should be enabled so that you don&rsquo;t fly to the moon !</h4>
+<h2 id="rowing-boat">Rowing boat</h2>
+<h4 id="even-if-it-wouldnt-be-the-fastest-locomotion-technique-i-think-that-being-able-to-row-a-boat-could-be-part-of-an-interesting-story-telling-game-and-be-immersive-right-now-i-dont-have-the-imagination-to-tell-you-such-a-story-so-i-let-you-do-it-yourself--this-technique-would-also-be-easy-to-use-as-you-just-need-to-sit-in-a-chair-we-could-also-imagine-a-rowing-machine-that-you-use-to-exercise-linked-to-the-headset-it-would-be-a-cool-way-to-exercise--i-looked-it-up-on-google-and-a-kickstarter-already-existed-here-are-some-visuals">Even if it wouldn&rsquo;t be the fastest locomotion technique, I think that being able to row a boat could be part of an interesting story telling game and be immersive. Right now I don&rsquo;t have the imagination to tell you such a story so I let you do it yourself ! This technique would also be easy to use as you just need to sit in a chair. We could also imagine a rowing machine that you use to exercise linked to the headset, it would be a cool way to exercise ! I looked it up on Google and a kickstarter already existed, here are some visuals:</h4>
+<p><img src="/rowing.jpg" alt="Example image">
+<img src="/rowing2.jpg" alt="Example image"></p>
+<h4 id="here-the-implementation-would-be-way-trickier-than-the-previous-one-the-way-i-see-it-is-that-there-would-be-two-paddles-attached-to-each-side-of-the-boat-and-you-could-grab-them-with-either-the-controller-or-your-bare-hands-once-you-grabbed-them-of-course-you-could-move-them-and-the-tip-of-the-paddle-should-induce-a-force-to-the-boat-that-would-move-it-by-triggering-a-collision-box-under-the-boat-you-could-then-turn-by-using-one-paddle-and-go-straight-forward-with-the-two-of-them">Here the implementation would be way trickier than the previous one. The way I see it is that there would be two paddles attached to each side of the boat and you could grab them with either the controller or your bare hands. Once you grabbed them of course you could move them, and the tip of the paddle should induce a force to the boat that would move it by triggering a collision box under the boat. You could then turn by using one paddle and go straight forward with the two of them.</h4>
+<h2 id="iron-man">Iron Man</h2>
+<h4 id="last-but-not-least-iron-man-it-is-the-first-thing-that-came-through-my-mind-when-i-asked-myself-what-is-a-cool-way-to-move-in-the-3d-space-the-goal-here-is-to-induce-a-maximum-of-presence-using-both-visual-and-sound-effects-in-order-to-make-the-user-think-that-he-actually-is-iron-man">Last but not least, Iron Man. It is the first thing that came through my mind when I asked myself &ldquo;What is a cool way to move in the 3D space?&rdquo;. The goal here is to induce a maximum of presence using both visual and sound effects in order to make the user think that he actually is Iron Man.</h4>
+<h4 id="the-implementation-of-that-technique-would-require-to-use-the-controllers-because-you-cant-detect-your-hands-if-they-are-behind-your-back-by-pressing-the-trigger-of-the-controller-a-force-would-propel-you-in-the-opposite-direction-of-the-one-pointed-at-by-the-controller-the-user-should-have-enough-control-over-his-movements-but-also-be-fast-enough-to-feel-the-iron-man-vibes-so-the-right-spot-of-speed-has-to-be-determined-here-is-a-picture-of-iron-man-to-give-you-an-idea--i-mean-maybe-its-me-you-never-know-">The implementation of that technique would require to use the controllers, because you can&rsquo;t detect your hands if they are behind your back. By pressing the trigger of the controller, a force would propel you in the opposite direction of the one pointed at by the controller. The user should have enough control over his movements, but also be fast enough to feel the Iron Man vibes, so the right spot of speed has to be determined. Here is a picture of Iron Man to give you an idea &hellip; I mean maybe it&rsquo;s me you never know !</h4>
+<p><img src="/IronMan.jpg" alt="Example image"></p>
+
+
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="https://gd-github.github.io//tags/homeworks/">Homeworks</a
+            >&nbsp;
+          
+        </div>
+      
+    </article>
+    
+    
+      
+
+    
+  </div>
+
+    <footer>
+  
+
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://gd-github.github.io/about">Guillaume Demarles</a>
+      &nbsp;&copy;
+      2020
+      
+        &nbsp;/&nbsp;
+        <a href="https://gd-github.github.io/">IGD Blog</a>
+      
+      &nbsp;&ndash;&nbsp;
+      <em class="fas fa-moon" id="dark-mode-toggle"></em>
+    </p>
+
+    <p class="credits theme-by">
+      Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;
+      Theme
+      <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
