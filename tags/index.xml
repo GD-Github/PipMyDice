@@ -9,10 +9,18 @@
 		
 		<managingEditor>Page(/tags) (Guillaume Demarles)</managingEditor>
     	
-  		<lastBuildDate>Mon, 21 Dec 2020 14:45:38 +0100</lastBuildDate>
+  		<lastBuildDate>Mon, 28 Dec 2020 11:40:38 +0100</lastBuildDate>
 		
 		<atom:link href="/tags/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Iron Man locomotion techniqu</title>
+			<link>https://gd-github.github.io/post/project/</link>
+			<pubDate>Mon, 28 Dec 2020 11:40:38 +0100</pubDate>
+			<guid>https://gd-github.github.io/post/project/</guid>
+			<description>You are now Iron Man So the technique that I chose to implement among the three previous ones is the Iron Man one. This is because it is the one that fits the most in the parkour but also because it is the one that hyped me the most. I first thought that the implementation will be very easy but I encountered some issues that I was not expecting at all !</description>
+		</item>
+      	
 		<item>
 			<title>Homework 3: Locomotion techniques</title>
 			<link>https://gd-github.github.io/post/hw3/</link>
